@@ -1,0 +1,151 @@
+.manager-container {
+  padding: 28px 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.toast-notification {
+  position: fixed;
+  top: 72px;
+  right: 24px;
+  background: #10b981;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  z-index: 200;
+  font-weight: 500;
+}
+
+.manager-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.manager-title {
+  font-weight: 700;
+  font-size: 22px;
+  margin: 0;
+}
+
+.manager-card {
+  margin-bottom: 20px;
+}
+
+.filters-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin-bottom: 16px;
+}
+
+.input-search-width {
+  width: 180px;
+}
+
+.input-price-width {
+  width: 100px;
+}
+
+.export-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  border-top: 1px solid #f3f4f6;
+  padding-top: 16px;
+}
+
+.export-label {
+  font-size: 13px;
+  color: #6b7280;
+  align-self: center;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.manager-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.table-header-row {
+  background: #fdf2f8;
+}
+
+.table-th {
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.table-tr {
+  border-bottom: 1px solid #f9fafb;
+}
+
+.table-td {
+  padding: 12px 16px;
+  vertical-align: middle;
+}
+
+.table-td-text {
+  padding: 12px 16px;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.table-td-muted {
+  padding: 12px 16px;
+  font-size: 14px;
+  color: #6b7280;
+  vertical-align: middle;
+}
+
+.table-td-price {
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ec4899;
+  vertical-align: middle;
+}
+
+.product-thumbnail {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.product-thumbnail-placeholder {
+  width: 40px;
+  height: 40px;
+  background: #f3f4f6;
+  border-radius: 4px;
+}
+
+.actions-wrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}

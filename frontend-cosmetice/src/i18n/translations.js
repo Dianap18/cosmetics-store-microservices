@@ -1,0 +1,26 @@
+export const translations = {
+  ro: {
+    nav: { products: "Produse", login: "Autentificare", logout: "Deconectare", dashboard: "Panou", users: "Utilizatori", stats: "Statistici" },
+    auth: { email: "Email", password: "Parolă", loginTitle: "Bine ai venit", loginBtn: "Autentificare", subtitle: "Autentifică-te pentru a continua" },
+    products: { title: "Produse cosmetice", search: "Caută după denumire...", sortName: "Denumire", sortPrice: "Preț", producer: "Producător", availability: "Disponibilitate", available: "Disponibil", unavailable: "Indisponibil", stock: "Stoc", buyPrice: "Preț achiziție", sellPrice: "Preț vânzare", images: "Imagini", sell: "Vinde", add: "Adaugă produs", edit: "Editează", delete: "Șterge", save: "Salvează", cancel: "Anulează", availableIn: "Disponibil în magazinele:", notAvailableHere: "Indisponibil local. Disponibil în:", exportCSV: "CSV", exportJSON: "JSON", exportXML: "XML", exportDOC: "DOC", export: "Exportă", filter: "Filtrează", store: "Magazin", name: "Denumire", updateStock: "Actualizează stoc" },
+    stats: { title: "Statistici", totalProducts: "Total produse", totalSales: "Total vânzări", avgSales: "Medie vânzări/produs", outOfStock: "Fără stoc" },
+    users: { title: "Utilizatori", name: "Nume", email: "Email", role: "Rol", add: "Adaugă utilizator", edit: "Editează", delete: "Șterge", filterByRole: "Filtrează după rol", exportCSV: "Export CSV", notifyEmail: "Email", notifySMS: "SMS", notify: "Notifică", allRoles: "Toate rolurile" },
+    common: { loading: "Se încarcă...", error: "Eroare", success: "Succes", yes: "Da", no: "Nu", actions: "Acțiuni", noResults: "Niciun rezultat", confirm: "Confirmare", close: "Închide", save: "Salvează", cancel: "Anulează", search: "Caută" },
+  },
+  en: {
+    nav: { products: "Products", login: "Login", logout: "Logout", dashboard: "Dashboard", users: "Users", stats: "Statistics" },
+    auth: { email: "Email", password: "Password", loginTitle: "Welcome", loginBtn: "Login", subtitle: "Sign in to continue" },
+    products: { title: "Cosmetic products", search: "Search by name...", sortName: "Name", sortPrice: "Price", producer: "Producer", availability: "Availability", available: "Available", unavailable: "Unavailable", stock: "Stock", buyPrice: "Buy price", sellPrice: "Sell price", images: "Images", sell: "Sell", add: "Add product", edit: "Edit", delete: "Delete", save: "Save", cancel: "Cancel", availableIn: "Available in stores:", notAvailableHere: "Not available locally. Available in:", exportCSV: "CSV", exportJSON: "JSON", exportXML: "XML", exportDOC: "DOC", export: "Export", filter: "Filter", store: "Store", name: "Name", updateStock: "Update stock" },
+    stats: { title: "Statistics", totalProducts: "Total products", totalSales: "Total sales", avgSales: "Avg sales/product", outOfStock: "Out of stock" },
+    users: { title: "Users", name: "Name", email: "Email", role: "Role", add: "Add user", edit: "Edit", delete: "Delete", filterByRole: "Filter by role", exportCSV: "Export CSV", notifyEmail: "Email", notifySMS: "SMS", notify: "Notify", allRoles: "All roles" },
+    common: { loading: "Loading...", error: "Error", success: "Success", yes: "Yes", no: "No", actions: "Actions", noResults: "No results", confirm: "Confirm", close: "Close", save: "Save", cancel: "Cancel", search: "Search" },
+  },
+  fr: {
+    nav: { products: "Produits", login: "Connexion", logout: "Déconnexion", dashboard: "Tableau de bord", users: "Utilisateurs", stats: "Statistiques" },
+    auth: { email: "Email", password: "Mot de passe", loginTitle: "Bienvenue", loginBtn: "Connexion", subtitle: "Connectez-vous pour continuer" },
+    products: { title: "Produits cosmétiques", search: "Rechercher par nom...", sortName: "Nom", sortPrice: "Prix", producer: "Producteur", availability: "Disponibilité", available: "Disponible", unavailable: "Indisponible", stock: "Stock", buyPrice: "Prix d'achat", sellPrice: "Prix de vente", images: "Images", sell: "Vendre", add: "Ajouter produit", edit: "Modifier", delete: "Supprimer", save: "Enregistrer", cancel: "Annuler", availableIn: "Disponible dans les magasins:", notAvailableHere: "Indisponible localement. Disponible dans:", exportCSV: "CSV", exportJSON: "JSON", exportXML: "XML", exportDOC: "DOC", export: "Exporter", filter: "Filtrer", store: "Magasin", name: "Nom", updateStock: "Mettre à jour stock" },
+    stats: { title: "Statistiques", totalProducts: "Total produits", totalSales: "Total ventes", avgSales: "Moyenne ventes/produit", outOfStock: "Rupture de stock" },
+    users: { title: "Utilisateurs", name: "Nom", email: "Email", role: "Rôle", add: "Ajouter utilisateur", edit: "Modifier", delete: "Supprimer", filterByRole: "Filtrer par rôle", exportCSV: "Export CSV", notifyEmail: "Email", notifySMS: "SMS", notify: "Notifier", allRoles: "Tous les rôles" },
+    common: { loading: "Chargement...", error: "Erreur", success: "Succès", yes: "Oui", no: "Non", actions: "Actions", noResults: "Aucun résultat", confirm: "Confirmation", close: "Fermer", save: "Enregistrer", cancel: "Annuler", search: "Rechercher" },
+  },
+};

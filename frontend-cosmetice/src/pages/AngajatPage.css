@@ -1,0 +1,107 @@
+.dashboard-container {
+  padding: 28px 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.toast-notification {
+  position: fixed;
+  top: 72px;
+  right: 24px;
+  background: #10b981;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  z-index: 200;
+  font-weight: 500;
+}
+
+.dashboard-title {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.dashboard-card {
+  margin-bottom: 24px;
+}
+
+.search-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.search-input-wrapper {
+  flex: 1;
+  min-width: 200px;
+}
+
+.filters-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.price-input-wrapper {
+  width: 100px;
+}
+
+.search-result-box {
+  margin-top: 14px;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.search-result-box.local {
+  background: #d1fae5;
+}
+
+.search-result-box.external {
+  background: #fee2e2;
+}
+
+.result-text-local {
+  color: #065f46;
+}
+
+.result-text-external {
+  color: #7c3aed;
+}
+
+.result-text-not-found {
+  color: #991b1b;
+}
+
+.export-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.export-label {
+  font-size: 13px;
+  color: #6b7280;
+  align-self: center;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 8px;
+}
